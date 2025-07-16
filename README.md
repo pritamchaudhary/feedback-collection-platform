@@ -1,3 +1,6 @@
+## 📁 Project Folder Structure
+
+```
 feedback-collection-platform/
 │
 ├── backend/                      # Backend code (Node.js + Express)
@@ -14,14 +17,15 @@ feedback-collection-platform/
     ├── app/                     # App directory with routes and pages
     │   ├── dashboard/           # Dashboard interface
     │   ├── form/                # Feedback form logic and UI
-    │   ├── f/                   # (Purpose unclear – possibly remove or rename)
+    │   ├── f/                   # (Temporary folder or unused – consider cleanup)
     │   ├── login/               # Login page
     │   ├── register/            # Registration page
     │   ├── layout.jsx           # Root layout for Next.js
     │   ├── page.jsx             # Main landing page
-    │   └── globals.css          # Global CSS using Tailwind
+    │   └── globals.css          # Global styles
     ├── components/              # Reusable UI components
-    ├── context/                 # React context for global state
-    ├── package.json             # Frontend dependencies and scripts
+    ├── context/                 # React context for state management
+    ├── package.json             # Frontend dependencies
     ├── tailwind.config.js       # Tailwind CSS configuration
     └── postcss.config.js        # PostCSS configuration
+```
