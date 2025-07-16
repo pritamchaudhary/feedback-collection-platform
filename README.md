@@ -1,5 +1,4 @@
 feedback-collection-platform/
-Folder Structure
 │
 ├── backend/                      # Backend code (Node.js + Express)
 │   ├── controllers/             # Route handler logic
@@ -26,4 +25,3 @@ Folder Structure
     ├── package.json             # Frontend dependencies and scripts
     ├── tailwind.config.js       # Tailwind CSS configuration
     └── postcss.config.js        # PostCSS configuration
-
