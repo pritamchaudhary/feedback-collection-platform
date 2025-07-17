@@ -98,6 +98,11 @@ MIT
 
 ---
 
+## 🧠 Approach
+
+I built this full-stack Feedback Collection Platform using Next.js for the frontend and Node.js with MongoDB for the backend. Admin users can register, log in, create feedback forms with customizable questions, and view submitted responses in a dashboard. Public users can access and submit feedback forms via a shared link, without authentication — making the system simple yet effective for real-world feedback collection workflows.
+
+
 ## 🙏 Acknowledgements
 
 - [Next.js](https://nextjs.org/)
