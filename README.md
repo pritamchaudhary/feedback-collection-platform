@@ -38,7 +38,7 @@ feedback-collection-platform/
 ### 1. **Clone the Repository**
 
 ```sh
-git clone https://github.com/yourusername/feedback-collection-platform.git
+git clone https://github.com/pritamchaudhary/feedback-collection-platform.git
 cd feedback-collection-platform
 ```
 
