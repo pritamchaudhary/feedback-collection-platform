@@ -16,6 +16,10 @@ app.use('/api/auth', authRoutes);
 app.use('/api/forms', formRoutes);
 app.use('/api/responses', responseRoutes);
 
-mongoose.connect(process.env.MONGO_URI)
+// mongoose.connect(process.env.MONGO_URI)
+//   .then(() => app.listen(process.env.PORT, () => console.log('Server running')))
+//   .catch(err => console.log(err));
+
+mongoose.connect(process.env.MONGODB_URL)
   .then(() => app.listen(process.env.PORT, () => console.log('Server running')))
   .catch(err => console.log(err));
